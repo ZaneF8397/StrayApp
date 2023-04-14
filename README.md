@@ -4,7 +4,7 @@ Welcome to Stray! This app can run independantally of other software however you
 
 This app was built in android studio so likely the smoothest workflow possible post download comes from android studio.
 
-People who worked on this app include Zane Foote (ZaneF8397), Aidan Collins (no GitHub as of current), and Nick Brogan (no GitHub as of current).
+People who worked on this app include Zane Foote (ZaneF8397), Aidan Collins (ac217), and Nick Brogan (no GitHub as of current).
 
 
 MIT License
