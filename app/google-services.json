@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1005279547384",
+    "project_id": "stray-517a9",
+    "storage_bucket": "stray-517a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005279547384:android:fc1767e3b1b33e3f99500d",
+        "android_client_info": {
+          "package_name": "com.example.strayapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005279547384-99v8s2iiulbpatdah29u9s1rvmueioua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD37rsxFqwBjx9Hh7fxHn4NmeFEtjdV1qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005279547384-99v8s2iiulbpatdah29u9s1rvmueioua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

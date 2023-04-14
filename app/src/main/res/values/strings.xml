@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Stray</string>
+    <string name="Empty"> </string>
+    <string name="color">Color</string>
+
+
+    <string name="purposeStatement">The purpose of this app is to reunite lost animals with their owners, warn people of potentially dangerous animals, and share findings of wildlife with other curious humans!</string>
+
+    <string name="reason">Reason:</string>
+    <string name="reasonStatement">A lost pet can wreak havoc on ecosystems it is not native too, spread diseases to wildlife and humans alike, hurt tourism, shake housing markets, and this is all not to mention the emotional toll of losing a pet.</string>
+    <string name="stats">\nCats left to roam outside are responsible for the extinction of 63 species of birds.\n\nIn 2017 there were between 30-40 million stray cats in the United States.\n\nEvery year around 10 million domestic animals are lost in the United States.
+    </string>
+    <string name="interested">Further elaboration with sources: </string>
+    <string name="hyperlink">Further elaboration with sources:\n<a href="https://docs.google.com/document/d/1GjSy4cysgRFNFV2q9TFVbVxm2LBw3qs-B7ra3ksuWKY/edit?usp=sharing">Click here!</a></string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="naught">Nothing posted yet, check back later!</string>
+    <string name="petTitle">Pet</string>
+    <string name="threatTitle">Threat</string>
+    <string name="wildTitle">Wild</string>
+    <string name="title_activity_about">About</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

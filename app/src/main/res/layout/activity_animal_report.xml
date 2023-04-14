@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#093B4D"
+    android:contentDescription="@string/Empty"
+    tools:context=".UI.MainActivity">
+
+    <TextView
+        android:id="@+id/reportTitle"
+        android:layout_width="158dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="646dp"
+        android:text="Pet"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/homebutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/animal"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_button"
+            android:text="Animal"
+            android:textAlignment="center"
+            android:textColor="#093B4D"
+
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/animaltype"
+            android:layout_width="361dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/roundless_button"
+            android:inputType="textMultiLine"
+            android:text="@string/Empty"
+            android:textAlignment="center"
+            android:textColor="#093B4D"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_button"
+            android:text="@string/color"
+            android:textAlignment="center"
+            android:textColor="#093B4D"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/colortype"
+            android:layout_width="361dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/roundless_button"
+            android:inputType="textMultiLine"
+            android:text="@string/Empty"
+            android:textAlignment="center"
+            android:textColor="#093B4D"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_button"
+            android:text="Description"
+            android:textAlignment="center"
+            android:textColor="#093B4D"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/descriptiontype"
+            android:layout_width="361dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/roundless_button"
+            android:inputType="textMultiLine"
+            android:text="@string/Empty"
+            android:textAlignment="center"
+            android:textColor="#093B4D"
+            android:textSize="17sp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="231dp"
+            android:layout_height="58dp"
+            android:background="@drawable/roundless_button"
+            android:text="Image Upload"
+            android:textAlignment="center"
+            android:textColor="#093B4D"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="73dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/Empty"
+        android:src="@drawable/homebuttonicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nextbutton"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:background="@drawable/round_button"
+        android:text="Next"
+        android:textColor="#093B4D"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/headerunderline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reportTitle"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/homebutton"
+        android:layout_width="63dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="352dp"
+        android:layout_marginBottom="680dp"
+        android:background="#0000"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
